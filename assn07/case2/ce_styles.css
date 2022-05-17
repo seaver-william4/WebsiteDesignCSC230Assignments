@@ -1,0 +1,91 @@
+@charset "utf-8";
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 3
+   Case Problem 2
+   
+   Style Sheet for Costume Expressions Front Page
+   Author: William Seaver
+   Date:   5/16/2022
+   
+   Filename: ce_styles.css
+*/
+
+
+/* Window and Body Styles */
+
+html {
+   background-color: rgb(101, 101, 101);
+}
+
+body {
+   position: relative;
+   background-color: white;
+   font-family: 'Verdana', 'Geneva', 'Arial', 'sans-serif';
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 95%;
+   min-width: 320px;
+   max-width: 960px;
+}
+
+body > div.row > img {
+   display: block;
+   width: 100%;
+}
+
+nav > ul > li > a:link {
+   text-decoration: none;
+}
+
+/* Body Header Styles */
+
+header {
+   background-color: rgb(191, 68, 70);
+   height: 40px;
+}
+
+body > header > nav > ul > li {
+   display: block;
+   float: left;
+   margin-right: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 0px;
+   padding-right: 0px;
+}
+
+body > header > nav > ul > li > a:link, body > header > nav > ul > li > a:visited {
+   font-size: 0.9em;
+   color: rgb(51, 51, 51);
+}
+
+body > header > nav > ul > li a:hover, body > header > nav > ul > li > a:active {
+   color: rgb(255, 211, 211);
+}
+/* DIV Container Styles */
+
+body > div#container {
+   padding-right: 8px;
+   padding-bottom: 8px;
+}
+
+body > div.cell > a {
+   display: block;
+   width: 100%;
+   padding-left: 8px;
+   padding-top: 8px;
+}
+
+/* Footer Styles */
+
+footer {
+   position: absolute;
+   right: 8px;
+   bottom: 8px;
+   color: rgb(143, 33, 36);
+   text-align: right;
+   font-size: 2vmin;
+}
