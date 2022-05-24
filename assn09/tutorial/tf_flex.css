@@ -5,8 +5,8 @@
    Tutorial 5
    Tutorial Case
    
-   Author:   
-   Date:     
+   Author:   William Seaver
+   Date:     5/24/2022
    
    Filename: tf_flex.css
    
@@ -21,7 +21,10 @@
    ================
 */
 
-
+body {
+   display: flex;
+   flex-flow: row wrap;
+}
 
 
 /* =========================
