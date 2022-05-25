@@ -52,8 +52,10 @@ table.schedule tfoot {
 
 col#firstCol {
    background: rgb(218, 210, 218);
+   width: 16%;
 }
 
 col.dayCols {
    background: rgb(255, 220, 255);
+   width: 12%;
 }
