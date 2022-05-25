@@ -18,7 +18,9 @@
 
 /* Hidden Objects */
 
-
+nav.horizontal, aside, footer {
+   display: none;
+}
 
 /* Page Box Styles */
 
