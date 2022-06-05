@@ -32,6 +32,12 @@ th {
    font-weight: normal;
 }
 
+td {
+   color: white;
+   font-size: 0.9em;
+   text-align: top;
+}
+
 /* Column Styles */
 
 
