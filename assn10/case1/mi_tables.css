@@ -49,8 +49,9 @@ col.dataCols {
 
 /* Table Header Styles */
 
-
-
+table#pricing thead  tr {
+   height: 60px;
+}
 
 
 
