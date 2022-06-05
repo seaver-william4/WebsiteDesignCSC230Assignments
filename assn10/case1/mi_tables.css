@@ -49,15 +49,18 @@ col.dataCols {
 
 /* Table Header Styles */
 
-table#pricing thead  tr {
+table#pricing thead > tr {
    height: 60px;
 }
 
-table#pricing thead tr:first-of-type th:first-of-type {
+table#pricing thead > tr:first-of-type th:first-of-type {
    font-size: 2em;
 }
 
-
+table#pricing thead tr:first-of-type th:not(:first-of-type) {
+   background-color: transparent;
+   color: black;
+}
 
 
 
